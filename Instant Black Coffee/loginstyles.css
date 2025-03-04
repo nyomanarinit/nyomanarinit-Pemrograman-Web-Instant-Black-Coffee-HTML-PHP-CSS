@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #473131;
+  background-size: cover;
+}
+
+.container {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.429);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6b3e26;
+}
+
+p {
+  font-size: 10px;
+  color: #999999;
+}
+
+.promo {
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.6); /* Abu samar putih */
+}
+
+
+.input-group {
+  position: relative;
+  margin: 15px 0;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 12px;
+  padding-left: 40px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: inset 3px 3px 6px #ccc, inset -3px -3px 6px #fff;
+  appearance: none;
+}
+
+.input-group select {
+  cursor: pointer;
+  background-color: white;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.btn {
+  background: linear-gradient(45deg, #e68900, #473131);
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.toggle-link {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #473131;
+  cursor: pointer;
+  display: inline-block;
+}
